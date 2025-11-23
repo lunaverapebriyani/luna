@@ -16,7 +16,8 @@
     }
     *{box-sizing:border-box}
     body{
-      margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;
+      margin:0; 
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;
       background:var(--bg); color:var(--text);
     }
     .wrap{max-width:880px; margin:48px auto; padding:0 16px}
@@ -65,13 +66,20 @@
     }
     .link:hover{text-decoration:underline}
     footer{padding:24px 32px 32px; color:var(--muted)}
+    .btn-kembali {
+      position: relative;
+      bottom: 30px;
+      left: 85%;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 16px;
+    }
   </style>
 </head>
 <body>
   <div class="wrap">
     <div class="card">
       <header>
-        <a href="beranda.html">⬅ Kembali</a>
         <h1>Template</h1>
         <p class="muted">Informasi akses dan daftar template GOSIP</p>
       </header>
@@ -109,7 +117,7 @@
           </li>
         </ul>
       </div>
-
+      <a href="index.html" class="btn-kembali">⬅ Kembali</a>
       <footer>
         <small>© BPJS Kesehatan — Halaman ini menyajikan daftar template.</small>
       </footer>
